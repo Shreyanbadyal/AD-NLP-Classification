@@ -1,0 +1,30 @@
+# Model checkpoints (too large for git, ~250MB+)
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# NLTK data
+nltk_data/
+
+# TextAttack cache
+.textattack/

@@ -1,0 +1,148 @@
+{
+  "textfooler": {
+    "attack_name": "textfooler",
+    "total_samples": 50,
+    "successful_attacks": 34,
+    "failed_attacks": 13,
+    "skipped": 3,
+    "attack_success_rate": 72.34,
+    "avg_word_perturbation_rate": 15.53,
+    "avg_queries_per_attack": 348.1,
+    "elapsed_seconds": 2141.9,
+    "examples": [
+      {
+        "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+        "perturbed": "Fears for df N retreat after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent unflinching Federal Mogul.",
+        "original_label": 2,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+        "perturbed": "Ky. Company Wins Grant to Study Peptides (PENNSYLVANIA) AG - A company founded by a chemistry researcher at the Brandeis of Louisville won a grant to develop a method of producing better peptides, whi",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+        "perturbed": "Prophesied Unit Helps Contemplated Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the d",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+        "perturbed": "Calif. Aims to Limit Farm-Related Smog (AP) CP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Open Letter Against British Copyright Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of ",
+        "perturbed": "Open Letter Against British Eula Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of educa",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Loosing the War on Terrorism \\\\\"Sven Jaschan, self-confessed author of the Netsky and Sasser viruses, is\\responsible for 70 percent of virus infections in 2004, according to a six-month\\virus roundup ",
+        "perturbed": "Loosing the War on Terrorism \\\\\"Sven Jaschan, self-confessed author of the Netsky and Sasser ebola, is\\responsible for 70 percent of chlamydia infections in 2004, according to a six-month\\herpes round",
+        "original_label": 3,
+        "perturbed_label": 1
+      },
+      {
+        "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+        "perturbed": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its sham squad chief was targeted.",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+        "perturbed": "Group to Propose New High-Speed Wireless Sized  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadcom",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Apple Launches Graphics Software, Video Bundle  LOS ANGELES (Reuters) - Apple Computer Inc.&lt;AAPL.O&gt; on  Tuesday began shipping a new program designed to let users  create real-time motion graphi",
+        "perturbed": "Apple Launches Figures Gooey, Film Bundle  LOS ANGELES (Reuters) - Abel Computer Inc.&pinkerton;AAPL.O&mitsubishi; on  Tuesday began shipping a new program designed to let shareholders  institution re",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+        "perturbed": "Dutch Retailer Beats Apple to Arrondissement Acquittal Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Teams Inc. to market on Tuesday  with the launch of a new",
+        "original_label": 3,
+        "perturbed_label": 2
+      }
+    ]
+  },
+  "deepwordbug": {
+    "attack_name": "deepwordbug",
+    "total_samples": 200,
+    "successful_attacks": 133,
+    "failed_attacks": 52,
+    "skipped": 15,
+    "attack_success_rate": 71.89,
+    "avg_word_perturbation_rate": 24.29,
+    "avg_queries_per_attack": 73.6,
+    "elapsed_seconds": 429.2,
+    "examples": [
+      {
+        "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+        "perturbed": "Feaos for T N pensOon after talks Unions representing workers at Turnre   Nweall say they are 'disappointed' after talks with stricken parent fim Federal Mogul.",
+        "original_label": 2,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+        "perturbed": "Ky. Company Wins Grant to Study Peptides (P) P - A company founded by a chemistry resaercher at the Univesrity of Louisville won a greant to develop a methoU of producing better peptides, which are sh",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+        "perturbed": "rediction nit Helps Froecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day wil",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+        "perturbed": "Calif. Aims to Limit Farm-Related Smog (AP) A - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution ",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Open Letter Against British Copyright Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of ",
+        "perturbed": "Opne Letter Against British CoXyright Indoctrination in Schools Tre British Department for Education and Sklls (DfES) recently lFunched a \"Music Manifesto\" campaign, with the ostensible intention of e",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+        "perturbed": "E-mial scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+        "perturbed": "Group to Propose New High-Speen Wireless Formt  LOS ANGELES (Reuters) - A gRoup of technology companies  including Texas Instruments Inh. &t;OXN.N&t;, STMicroelectronics  &l;SMT.PA&t; and Broadcom Cor",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+        "perturbed": "Dutch Retailer Beats Bpple to Lohal Dowvload Market  AMSTERDAM (Reuters) - Fee Record Shop, a Duch music  retail chain, beat BApple Comluter Inc. to market on Tuesday  with the launch of a new downola",
+        "original_label": 3,
+        "perturbed_label": 2
+      },
+      {
+        "original": "Socialites unite dolphin groups Dolphin groups, or \"pods\", rely on socialites to keep them from collapsing, scientists claim.",
+        "perturbed": "Socialitse Nnite doslphin groups Dolphin groups, or \"posd\", ely on socialites to kepe them from collpasing, sAientists laim.",
+        "original_label": 3,
+        "perturbed_label": 0
+      },
+      {
+        "original": "Storage, servers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+        "perturbed": "Storage, sevrers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+        "original_label": 3,
+        "perturbed_label": 2
+      }
+    ]
+  }
+}
