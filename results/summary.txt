@@ -1,0 +1,25 @@
+======================================================================
+COMPREHENSIVE RESULTS SUMMARY
+======================================================================
+
+Baseline Model Performance:
+  Accuracy: 90.40%
+  F1 (Macro): 90.38%
+  F1 (Weighted): 90.40%
+
+Adversarial Attack Results:
+  Attack            Success%   Perturb%    Queries
+  ---------------------------------------------
+  textfooler           72.3%      15.5%      348.1
+  deepwordbug          71.9%      24.3%       73.6
+
+Defense Results (Attack Success Rate — lower is better):
+  adversarial_training:
+    vs textfooler: 70.8%
+    vs deepwordbug: 37.5%
+  spelling_correction:
+    vs textfooler: 85.7%
+    vs deepwordbug: 28.6%
+  ensemble:
+    vs textfooler: 62.5%
+    vs deepwordbug: 45.8%

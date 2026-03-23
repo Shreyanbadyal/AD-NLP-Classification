@@ -1,0 +1,416 @@
+{
+  "adversarial_training": {
+    "textfooler": {
+      "attack_name": "adv_trained_textfooler",
+      "total_samples": 25,
+      "successful_attacks": 17,
+      "failed_attacks": 7,
+      "skipped": 1,
+      "attack_success_rate": 70.83,
+      "avg_word_perturbation_rate": 16.87,
+      "avg_queries_per_attack": 275.2,
+      "elapsed_seconds": 1499.7,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "Fears for vd page retreat after talks Unions representing workers at Sanders   Newall say they are 'disappointed' after talks with influenced parent abiding Federal Mogul.",
+          "original_label": 2,
+          "perturbed_label": 3
+        },
+        {
+          "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+          "perturbed": "Ky. Company Wins Grant to Study Peptides (AG) PENNSYLVANIA - A company founded by a chemistry investigators at the Tuition of Louisville won a dealership to enacted a practices of producing better pep",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+          "perturbed": "Prediction Unit Backing Forecast Wildfires (PENN) PENN - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful cards, figures and endless charts, but already he knows what th",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+          "perturbed": "Calif. Aims to Limit Farm-Related Smog (BP) PENNSYLVANIA - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Open Letter Against British Copyright Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of ",
+          "perturbed": "Commencement Cards Against British Copyright Indoctrination in Tuition The French Department for Apprenticeship and Eligibility (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensib",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "perturbed": "E-mail scam destinies nypd chief Wiltshire Police prudential about \"phishing\" after its fraud grupo managers was destinies.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Card fraud unit nets 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "perturbed": "Card fraud unit netting 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+          "perturbed": "Group to Propose New High-Speed Boingo Sized  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadcom C",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Apple Launches Graphics Software, Video Bundle  LOS ANGELES (Reuters) - Apple Computer Inc.&lt;AAPL.O&gt; on  Tuesday began shipping a new program designed to let users  create real-time motion graphi",
+          "perturbed": "Apple Launches Figures Gooey, Film Parcel  LOS ANGELES (Reuters) - Abel Electronic Inc.&pinkerton;AAPL.O&mitsubishi; on  Tuesday began shipping a new program designed to let shareholders  manufactured",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+          "perturbed": "Leyden Retailer Beats Apple to Arrondissement Acquittal Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computerized Inc. to market on Tuesday  with the launch ",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    },
+    "deepwordbug": {
+      "attack_name": "adv_trained_deepwordbug",
+      "total_samples": 25,
+      "successful_attacks": 9,
+      "failed_attacks": 15,
+      "skipped": 1,
+      "attack_success_rate": 37.5,
+      "avg_word_perturbation_rate": 17.66,
+      "avg_queries_per_attack": 49.0,
+      "elapsed_seconds": 157.8,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "FeaVs for T N pesnion after talks Unions representing workers at Tuner   ewall say they are 'disappointed' after talks with sricken parent ifrm Fedperal Mogul.",
+          "original_label": 2,
+          "perturbed_label": 3
+        },
+        {
+          "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+          "perturbed": "y. Company Wins Grant to Stuyd Petides (PP) P - A company founded by a chemistry reseaurcher at the Unversity of Louisville won a grnt to develop a metUod of producing better peptdes, which are short ",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+          "perturbed": "Calif. Aims to Limit Farm-Related Smog (P) A - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pMllution f",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Card fraud unit nets 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "perturbed": "Card fraud unit nezts 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+          "perturbed": "Dutch Retailer Beats pAple to Loca Donload Market  AMSTERDAM (Reuters) - Frei Record Sho, a Dutch music  retail chain, beat hApple CNomputer Inc. to market on Tuesday  with the launch of a new dowload",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Super ant colony hits Australia A giant 100km colony of ants  which has been discovered in Melbourne, Australia, could threaten local insect species.",
+          "perturbed": "Supe Mant coony hitT Australia A gant 100kb coony of anXts  which has been discoveLred in yelbourne, Australia, could threaten local inseRct secies.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Storage, servers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "perturbed": "Storage, sevrers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "IBM to hire even more new workers By the end of the year, the computing giant plans to have its biggest headcount since 1991.",
+          "perturbed": "BM to hire even more new workers By the end of the year, the compuPing giant plans to have its biggest headcount since 1991.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Some People Not Eligible to Get in on Google IPO Google has billed its IPO as a way for everyday people to get in on the process, denying Wall Street the usual stranglehold it's had on IPOs. Public bi",
+          "perturbed": "Some People Not Eligible to Get in on Gogle IPO Google has billed its IPO as a way for everyday people to get in on the process, denying Wall Street the usual stranglehold it's had on IPOs. Public bid",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    }
+  },
+  "spelling_correction": {
+    "textfooler": {
+      "attack_name": "spelling_defense_textfooler",
+      "total_samples": 25,
+      "successful_attacks": 18,
+      "failed_attacks": 3,
+      "skipped": 4,
+      "attack_success_rate": 85.71,
+      "avg_word_perturbation_rate": 15.31,
+      "avg_queries_per_attack": 359.3,
+      "elapsed_seconds": 4368.6,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "Fears for df N remarriage after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent constants Federal Mogul.",
+          "original_label": 2,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+          "perturbed": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry investigations at the Brandeis of Louisville won a subsidy to develop a practices of producing better peptides, whic",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+          "perturbed": "Foretell Unit Promotes Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful mapmaker, figures and endless charts, but already he knows what the ",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Open Letter Against British Copyright Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of ",
+          "perturbed": "Open Letter Against British Perpetrator Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention o",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Loosing the War on Terrorism \\\\\"Sven Jaschan, self-confessed author of the Netsky and Sasser viruses, is\\responsible for 70 percent of virus infections in 2004, according to a six-month\\virus roundup ",
+          "perturbed": "Loosing the War on Terrorism \\\\\"Sven Jaschan, self-confessed author of the Netsky and Sasser ebola, is\\responsible for 70 percent of hepatitis infections in 2004, according to a six-month\\influenza ro",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "FOAFKey: FOAF, PGP, Key Distribution, and Bloom Filters \\\\FOAF/LOAF  and bloom filters have a lot of interesting properties for social\\network and whitelist distribution.\\\\I think we can go one level ",
+          "perturbed": "FOAFKey: FOAF, PGP, Principal Exchanges, and Corolla Grates \\\\FOAF/BAKERY  and daisies snares have a lot of enticing properties for institutional\\tenderloin and whitelist distribution.\\\\I think we can",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "perturbed": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its sham squad chief was targeted.",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+          "perturbed": "Group to Propose New High-Speed Wireless Sized  CHICAGO ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broa",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Apple Launches Graphics Software, Video Bundle  LOS ANGELES (Reuters) - Apple Computer Inc.&lt;AAPL.O&gt; on  Tuesday began shipping a new program designed to let users  create real-time motion graphi",
+          "perturbed": "Apple Launches Imaging Gooey, Slivers Regrouped  CHICAGO ANGELES (Reuters) - Abel Computer Inc.&ensign;AAPL.dollar&mitsubishi; on  Tuesday began shipping a new program designed to let shareholders  in",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+          "perturbed": "Dutch Retailer Beats Apple to Arrondissement Acquittal Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Pcs Inc. to market on Tuesday  with the launch of a new d",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    },
+    "deepwordbug": {
+      "attack_name": "spelling_defense_deepwordbug",
+      "total_samples": 25,
+      "successful_attacks": 6,
+      "failed_attacks": 15,
+      "skipped": 4,
+      "attack_success_rate": 28.57,
+      "avg_word_perturbation_rate": 16.47,
+      "avg_queries_per_attack": 55.5,
+      "elapsed_seconds": 1074.9,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "Fars for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parnt fim Federal Mogul.",
+          "original_label": 2,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+          "perturbed": "Prediction Unit Helps Forecast WildfiIes (AP) AP - I's barely dwn when Mike Fitzpatrick stats his shft with a blur of colorfuGl maps, figures and endless charst, but alrXeady he knows what the dMy wil",
+          "original_label": 3,
+          "perturbed_label": 1
+        },
+        {
+          "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "perturbed": "E-mali scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Storage, servers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "perturbed": "Storage, servrs bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "IBM to hire even more new workers By the end of the year, the computing giant plans to have its biggest headcount since 1991.",
+          "perturbed": "IBL to hire even more new workers By the end of the year, the comKputing giant plans to have its biggest headcount since 1991.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "IBM Chips May Someday Heal Themselves New technology applies electrical fuses to help identify and repair faults.",
+          "perturbed": "IBW hips Ma Someday Hal Themselves New technology applies electrcial fues to helf identify and repair faults.",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    }
+  },
+  "ensemble": {
+    "textfooler": {
+      "attack_name": "ensemble_textfooler",
+      "total_samples": 25,
+      "successful_attacks": 15,
+      "failed_attacks": 9,
+      "skipped": 1,
+      "attack_success_rate": 62.5,
+      "avg_word_perturbation_rate": 12.44,
+      "avg_queries_per_attack": 215.7,
+      "elapsed_seconds": 1794.4,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "Fears for df N retreat after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken mothers stabilised Federal Mogul.",
+          "original_label": 2,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+          "perturbed": "Ky. Company Wins Grant to Study Peptides (PENNSYLVANIA) AG - A company founded by a chemistry researcher at the Tuition of Louisville won a granting to develop a practices of producing better peptides",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+          "perturbed": "Prospect Team Helps Prospects Wildfires (AP) PENNSYLVANIA - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what ",
+          "original_label": 3,
+          "perturbed_label": 1
+        },
+        {
+          "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+          "perturbed": "Calif. Aims to Limit Farm-Related Smog (HAD) PENNSYLVANIA - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce ai",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Open Letter Against British Copyright Indoctrination in Schools The British Department for Education and Skills (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible intention of ",
+          "perturbed": "Openness Letter Against British Royalties Indoctrination in Institutional The British Department for Education and Power (DfES) recently launched a \"Music Manifesto\" campaign, with the ostensible inte",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "perturbed": "E-mail swindle destinies police chief Wiltshire Police ultimatum about \"phishing\" after its sham squad chief was concentrated.",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Card fraud unit nets 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "perturbed": "Card fraud unit threaded 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+          "perturbed": "Group to Propose New High-Speed Telephones Sized  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadc",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Apple Launches Graphics Software, Video Bundle  LOS ANGELES (Reuters) - Apple Computer Inc.&lt;AAPL.O&gt; on  Tuesday began shipping a new program designed to let users  create real-time motion graphi",
+          "perturbed": "Apple Launches Figures Gooey, Film Parcel  LOS ANGELES (Reuters) - Abel Computer Inc.&pinkerton;AAPL.O&mitsubishi; on  Tuesday began shipping a new program designed to let shareholders  manufactured r",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+          "perturbed": "Dutch Retailer Beats Apple to Arrondissement Acquittal Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computerized Inc. to market on Tuesday  with the launch o",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    },
+    "deepwordbug": {
+      "attack_name": "ensemble_deepwordbug",
+      "total_samples": 25,
+      "successful_attacks": 11,
+      "failed_attacks": 13,
+      "skipped": 1,
+      "attack_success_rate": 45.83,
+      "avg_word_perturbation_rate": 14.89,
+      "avg_queries_per_attack": 55.7,
+      "elapsed_seconds": 165.8,
+      "examples": [
+        {
+          "original": "Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.",
+          "perturbed": "Feaos for T N pensOon after talks Unions representing workers at Turnre   Nweall say they are 'disappointed' after talks with strciken parnet fim Fdeeral Mogul.",
+          "original_label": 2,
+          "perturbed_label": 3
+        },
+        {
+          "original": "Ky. Company Wins Grant to Study Peptides (AP) AP - A company founded by a chemistry researcher at the University of Louisville won a grant to develop a method of producing better peptides, which are s",
+          "perturbed": "Ky. Company Wins Grant to tSudy Peptides (A) A - A company founded by a chemistry reseacher at the UnOversity of Louisville won a gant to develop a methok of producing better peptides, which are short",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Prediction Unit Helps Forecast Wildfires (AP) AP - It's barely dawn when Mike Fitzpatrick starts his shift with a blur of colorful maps, figures and endless charts, but already he knows what the day w",
+          "perturbed": "Prediccion Uniu eHlps FoTecast Wildfires (AP) A - It's barely dawn when Mike Fitzpatrick stats his shift with a blu of colorful emaps, figures and endless chDarts, but alrLeady he kows what the day wi",
+          "original_label": 3,
+          "perturbed_label": 1
+        },
+        {
+          "original": "Calif. Aims to Limit Farm-Related Smog (AP) AP - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution",
+          "perturbed": "Calif. Aims to Limit Farm-Related Smog (A) A - Southern California's smog-fighting agency went after emissions of the bovine variety Friday, adopting the nation's first rules to reduce air pollution f",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "E-mail scam targets police chief Wiltshire Police warns about \"phishing\" after its fraud squad chief was targeted.",
+          "perturbed": "E-maQil scam targets police chief Wiltshire Police warns about \"hishing\" after its fraud squad chief was targeted.",
+          "original_label": 3,
+          "perturbed_label": 0
+        },
+        {
+          "original": "Card fraud unit nets 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "perturbed": "Card fraud unit neGts 36,000 cards In its first two years, the UK's dedicated card fraud unit, has recovered 36,000 stolen cards and 171 arrests - and estimates it saved 65m.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Group to Propose New High-Speed Wireless Format  LOS ANGELES (Reuters) - A group of technology companies  including Texas Instruments Inc. &lt;TXN.N&gt;, STMicroelectronics  &lt;STM.PA&gt; and Broadco",
+          "perturbed": "Group to ropose New High-Speez Cireless Forat  LOS ANGELES (Reuters) - A roup of tefchnology companies  incluLding Texas Instruments Inc. &llt;NXN.N&g;, STMiroelectronics  &lM;SMT.A&t; and Broadom Cor",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Dutch Retailer Beats Apple to Local Download Market  AMSTERDAM (Reuters) - Free Record Shop, a Dutch music  retail chain, beat Apple Computer Inc. to market on Tuesday  with the launch of a new downlo",
+          "perturbed": "Dutch Retailer Beats ApAle to Lojal Dowload Market  AMSTERDAM (Reuters) - Fee Record Shop, a Dutch music  retail chain, beat Apple Coputer Inc. to market on Tuesday  with the launch of a new dowload s",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "Storage, servers bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "perturbed": "Storage, servears bruise HP earnings update Earnings per share rise compared with a year ago, but company misses analysts' expectations by a long shot.",
+          "original_label": 3,
+          "perturbed_label": 2
+        },
+        {
+          "original": "IBM to hire even more new workers By the end of the year, the computing giant plans to have its biggest headcount since 1991.",
+          "perturbed": "IBM to hire even more new workers By the end of the year, the compting giant plans to have its biggest headcount since 1991.",
+          "original_label": 3,
+          "perturbed_label": 2
+        }
+      ]
+    }
+  }
+}
